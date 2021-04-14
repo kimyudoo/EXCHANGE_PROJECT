@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		for (int i = 0; i < 20; i++) {
 			double random = (Math.random() * 20 + 1.0);
-			if (random < 20.00001 && random >= 20.0) {
+			if (random < 20.00022 && random >= 20.0) {
 				random = 20.0;
 			}
 			if (random <= 20.0) {
